@@ -1,0 +1,11 @@
+let pocket_money = 2000;
+
+if (pocket_money>=5000){
+    console.log("Cholen Sajek jai");
+}
+
+else if (pocket_money>=3000){
+    console.log("Cholen Cox's bazar jai");
+}
+
+else {console.log("Amra gorib, Chiriya-khanay cholen")}
