@@ -1,0 +1,18 @@
+// let cofee_available = true;
+// let cofee_price = "5000";
+
+// if (cofee_price>=50) | (cofee_available==true){
+//     console.log("Cofee khabo");
+// }
+
+// else {console.log("Ashen Cha Khai")}
+
+
+
+let cofee_available = false;
+let cofee_price = 60;
+
+const kiKhabo = (cofee_price>=50) & (cofee_available==true) ?
+"Cholen Cofee khai" : "Ashen Cha khai";
+
+console.log(kiKhabo);
