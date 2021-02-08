@@ -1,6 +1,0 @@
-let vat_er_dam = "51";
-
-if (vat_er_dam<=50){
-    console.log("Bohudin por vat khamu");
-}
-else {console.log("Tui Gorib, porota kha")}
