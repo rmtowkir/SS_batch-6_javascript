@@ -1,0 +1,8 @@
+let closeFriend = false;
+let previouslyReturnedMyMoney = false;
+let ammount = 6000;
+
+const dharDibo = (closeFriend==true) | (previouslyReturnedMyMoney==true) | (ammount <=2000) ?
+"Asho, niye jao" : "Dure giye mor";
+
+console.log(dharDibo);
