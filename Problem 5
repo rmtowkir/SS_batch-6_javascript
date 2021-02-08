@@ -1,0 +1,31 @@
+let my_mark = 69;
+
+if (my_mark>=97){
+    console.log("Apni A+ peyechen");
+}
+
+else if (my_mark>=90){
+    console.log("Apni A Grade peyechen");
+}
+
+else if (my_mark>=86){
+    console.log("Apni A- Grade peyechen");
+}
+
+else if (my_mark>=80){
+    console.log("Apni B Grade peyechen");
+}
+
+else if (my_mark>=70){
+    console.log("Apni C Grade peyechen");
+}
+
+else if (my_mark>=60){
+    console.log("Apni D Grade peyechen");
+}
+
+else if (my_mark<60){
+    console.log("Apni Fail korsen");
+}
+
+else {console.log("Invalid Marks")}
